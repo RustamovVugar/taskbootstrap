@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#wrapper .container .card{
+    height: 500px;
+    width: 800px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#wrapper .container .card .img{
+height: 500px;
+width: 300px;
+}
+#wrapper .container .card .img img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#wrapper .container .card .log{
+    height: 500px;
+   width: 350px;
+}
+
+.forgot{
+    margin-bottom: 10px;
+}
+
+.sosial{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sosial a{
+    width: 150px;
+   
+}
+a{
+    text-decoration: none;
+}
+#wrapper .card .log{
+    margin: auto;
+    width: 500px; 
+}
+#wrapper .card .log h2{
+    text-align: center;
+    color: rgb(0, 166, 255);
+   margin-top: 20px;
+}
+#wrapper .card button{
+  width: 100%;
+  
+}
+#wrapper .card .log .platform{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+#wrapper .card .log .mini{
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+}
